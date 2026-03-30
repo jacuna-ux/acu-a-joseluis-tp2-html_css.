@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    width: 100%;
+}
+.FIFA{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header-top{
+    background-color: black;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+.texto-arriba{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 13px; 
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto-abajo{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 13px;      
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+
+   
+}
+ 
+.abajo{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    height: 50px;
+}
+.material-icons{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+.abajo img{
+    width: 40px;
+    border-radius: 10px;
+    border: 10px solid black;
+    display: block;
+    background-color: black;
+    margin-top: 50px;
+}
+.titulo{
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.all-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 20px;
+  justify-content: center;
+}
+
+.equipos {
+  background-color: white;
+  overflow: hidden;
+}
+
+.encabezado-tarjeta {
+  height: 90px;
+  padding: 15px;
+  position: relative;
+}
+
+.encabezado-tarjeta h3 {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.imagen-bandera {
+  width: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.cuerpo-tarjeta {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.info-izquierda {
+  color: gray;
+}
+
+.info-derecha {
+  text-align: right;
+  font-weight: bold;
+}
+
+.alemania {
+  background-color: dimgrey;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.arabia {
+  background-color: #27a550;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.argelia {
+  background-color: #00a067;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.argentina {
+  background-color: #9cc9f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.belgica {
+  background-color: crimson;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.brasil {
+  background-color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.austria {
+  background-color: firebrick;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.australia {
+  background-color: #f0e68c;
+  font-family: Arial, Helvetica, sans-serif;
+}
+Actualizo sitio en un segundo commit.
+
